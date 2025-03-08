@@ -1,0 +1,94 @@
+
+:root {
+    --cardColor: hsl(216, 50%, 16%);
+    --bgColor: hsl(217, 54%, 11%);
+    --lineColor: hsl(215, 51%, 70%);
+    --ethValue: hsl(178, 100%, 50%);
+}
+* {
+    box-sizing: border-box;
+    font-family: outfit;
+}
+html {
+    background: var(--bgColor);
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    font-size: 16px;
+    font-weight: 300;
+}
+section {
+    max-width: 350px;
+    border-radius: 15px;
+    background: var(--cardColor);
+    padding: 25px;
+    color: white;
+    margin-bottom: 30px;
+}
+#equilibrumImg {
+    width: 100%;
+    border-radius: 10px;
+}
+h2 {
+    font-weight: 500;
+}
+.p1 {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+#greyedParagraph {
+    color: var(--lineColor)
+}
+
+
+
+
+#ethLeft {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+#ethValue {
+    color: var(--ethValue);
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+#ethValue img, #ethTime img{
+    padding-right: 5px;
+}
+#ethTime {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--lineColor)
+}
+
+#ethProfile {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid hsl(214, 23%, 41%);
+    padding: 15px 0px;
+}
+#ethProfile img {
+    margin-right: 15px;
+    max-width: 35px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+
+
+
+/*Footer*/
+.attribution {
+    font-size: 11px; text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
